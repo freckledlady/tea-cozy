@@ -58,16 +58,9 @@ a {
   text-align: center;
 }
 
-#img-rw-one {
-  display: flex;
-  justify-content: center;
-}
-
-.section-two h4 {
-  display: inline-block;
-}
-
-#img-rw-two {
-  display: flex;
-  justify-content: center;
+.moo {
+  display: inline-flex;
+  flex-direction: column;
+  
+  align-items: center;
 }
