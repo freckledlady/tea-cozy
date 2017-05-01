@@ -21,3 +21,53 @@ nav li {
   display: inline-block;
   padding: 10px;
 }
+
+a {
+  color: seashell;
+}
+
+.pic-section {
+  background-image: url("./images/background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-two img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.section-two {
+  width: 1000px;
+  text-align: center;
+}
+
+#img-rw-one {
+  display: flex;
+  justify-content: center;
+}
+
+.section-two h4 {
+  display: inline-block;
+}
+
+#img-rw-two {
+  display: flex;
+  justify-content: center;
+}
