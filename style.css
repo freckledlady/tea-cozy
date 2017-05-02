@@ -50,7 +50,7 @@ a {
 .section-two img {
   height: 200px;
   width: 300px;
-  margin: 10px;
+
 }
 
 .section-two {
@@ -60,12 +60,10 @@ a {
 
 #img-rw-one {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.section-two h4 {
-  display: inline-block;
-}
+
 
 #img-rw-two {
   display: flex;
