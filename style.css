@@ -57,7 +57,7 @@ a {
 .section-two img {
   height: 200px;
   width: 300px;
-  margin: 10px;
+
 }
 
 .section-two {
@@ -82,6 +82,7 @@ a {
   width: 1200px;
   height: 500px;
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
 
   justify-content: center;
@@ -98,6 +99,12 @@ a {
 .section-three h2 {
   margin-bottom: 0px;
 }
+=======
+  justify-content: space-around;
+}
+
+
+>>>>>>> master
 
 .location {
   width: 300px;
