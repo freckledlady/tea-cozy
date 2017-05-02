@@ -12,14 +12,19 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
 }
 
 .header img {
   height: 50px;
+  margin-left: 10px;
 }
 nav li {
   display: inline-block;
-  padding: 10px;
+  margin: 10px;
 }
 
 a {
@@ -45,6 +50,8 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
+  top: 69px;
 }
 
 .section-two img {
@@ -101,7 +108,7 @@ a {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .section-four {
