@@ -14,13 +14,18 @@ body {
   height: 69px;
   position: fixed;
   width: 100%;
-  z-index: 5;
+  z-index: 20;
   background-color: black;
+  top: 0;
 }
 
 .header img {
   height: 50px;
   margin-left: 10px;
+}
+
+nav {
+  margin-right: 10px;
 }
 nav li {
   display: inline-block;
